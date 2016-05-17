@@ -1,0 +1,2 @@
+rm out.zip
+zip -r out .

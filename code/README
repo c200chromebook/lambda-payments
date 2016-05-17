@@ -1,0 +1,5 @@
+fill in key in demo.env and rename .env.
+
+to set up your api, we use the following tricks: 
+https://forums.aws.amazon.com/thread.jspa?messageID=673012&tstart=0#673012
+http://stackoverflow.com/questions/31779868/get-aws-lambda-response-as-an-html-page
