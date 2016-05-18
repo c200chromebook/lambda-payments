@@ -10,7 +10,7 @@ exports.handler = function(event, context) {
    var message="";
    if(validCountryList.indexOf(event.stripeShippingAddressCountryCode) == -1)
    {
-     context.succeed({variableHTML:(process.env.HTML_HEADER+process.env.BAD_COUNTRY)});
+     context.succeed({variableHTML:(process.env.HTML_HEADER+process.env.GENERIC_ERROR_HEADER+process.env.BAD_COUNTRY)});
    }
    var customer = stripe.customers.create(
     {
